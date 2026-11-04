@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="assets/css/panier.css" />
+  </head>
+  <body>
+    <header class="barre-superieure">
+        <div class="gauche">
+            <a href="index.html">HOME</a>
+            <a href="produit.html">CATALOG</a>
+            <a href="categorie.html">SHOP</a>
+            <a href="blog.html">BLOG</a>
+            <a href="article.html">PAGES</a>
+        </div>
+
+        <div class="logo">
+            <img src="assets/images/logo.webp" alt="logo">
+        </div>
+
+        <div class="droite">
+            <a href="compte.html">BUY</a>
+            <a href="Apropos.html">CONTACT</a>
+            <div class="icones">
+                <img src="assets/images/icons8-loupe-50.png" alt="loupe">
+                <img src="assets/images/icons8-gear-100.png" alt="gear">
+                <a href="panier.html"><img src="assets/images/bg-btn-cart-hover.png" alt="cart"></a>
+            </div>
+        </div>
+    </header>
+    <div class="fil-ariane">
+      <a href="index.html">Home</a> / <span>Your shopping cart</span>
+    </div>
+    <hr class="separateur" />
+    <div class="conteneur">
+      <h1>Shopping Cart</h1>
+
+      <table class="tableau-panier">
+        <thead>
+          <tr>
+            <th>Image</th>
+            <th>Product Name</th>
+            <th>Quantity</th>
+            <th>Unit Price</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="cellule-image">
+              <img
+                src="assets/images/25-800x800_415526d6-f9b2-4949-b383-d4a4d8be54e5_1024x1024.jpg.jpeg"
+                alt="Redphase Unitrax"
+              />
+            </td>
+            <td class="nom-produit">
+              <div>Redphase Unitrax</div>
+              <div class="poids-produit">100g</div>
+            </td>
+            <td class="cellule-quantite">
+              <div class="controles-quantite">
+                <div class="boutons-quantite">
+                  <button class="bouton-modifier"><img class="bouton-modifier" src="assets/images/update-arrows.png"></button>
+                  <button class="bouton-supprimer"><img class="bouton-supprimer" src="assets/images/delete-button (1).png"></button>
+                </div>
+              </div>
+            </td>
+            <td class="prix">$80.00</td>
+            <td class="prix">$80.00</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="instructions-speciales">
+        <button class="bouton-deroulant">Special Instructions For Seller ▼</button>
+      </div>
+
+      <div class="pied-panier">
+        <button class="bouton-continuer">Continue Shopping</button>
+
+        <div class="section-paiement">
+          <div class="notice">
+            Shipping, taxes, and discounts will be calculated at checkout.
+          </div>
+          <div class="sous-total">
+            <span>Subtotal:</span>
+            <span class="prix">$80.00</span>
+          </div>
+          <button class="bouton-valider">PROCEED TO CHECK OUT</button>
+        </div>
+      </div>
+    </div>
+   
+    <section class="newsletter-section">
+        <img src="assets/images/bg-footer2.png" alt="Spices" class="pizza-image">
+        
+        <div class="newsletter-content">
+            <h2>Sign Up For Our Newsletter!</h2>
+            <p>Get e-mail updates about our latest shop and special offers.</p>
+            
+            <form class="newsletter-form">
+                <input type="email" class="email-input" placeholder="Email Address" required>
+                <button type="submit" class="subscribe-btn">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+   <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>About Us</h3>
+                <p class="about-text">The best way to remember a memorable event is to capture it. Enter cameras. Flipkart features a wide selection.</p>
+                
+                <ul class="contact-info">
+                    <li>Address: 413 Main Street, Anytown, CA 12345 USA</li>
+                    <li>Phone: (800) 123 456 789</li>
+                    <li>Email: support@manstechgadgets.com</li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>New Products</h3>
+                
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="assets/images/33-800x800_800x800.jpg.jpeg" alt="Multi-Grain Bread">
+                    </div>
+                    <div class="product-info">
+                        <h4>Zim-Ing La Joyus</h4>
+                        <span class="product-price">$80.00</span>
+                    </div>
+                </div>
+
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="assets/images/32-800x800_800x800.jpg.jpeg" alt="Cookies">
+                    </div>
+                    <div class="product-info">
+                        <h4>Oveph Trecli Goldfresh</h4>
+                        <span class="product-price">$80.00</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h3>Information</h3>
+                <ul class="footer-links">
+                    <li><a href="Apropos.html">About Us</a></li>
+                    <li><a href="#">Delivery Information</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Specials</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Instagram</h3>
+                
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2016 <a href="#">MansTechGadgets</a>. All rights reserved.</p>
+            
+            <div class="social-links">
+                <a href="#" class="social-icon">f</a>
+                <a href="#" class="social-icon">t</a>
+                <a href="#" class="social-icon">in</a>
+                <a href="#" class="social-icon">g+</a>
+                <a href="#" class="social-icon">p</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
